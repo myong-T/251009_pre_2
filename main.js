@@ -16,7 +16,7 @@ document.body.appendChild(renderer.domElement); // 캔버스(renderer.domElement
 
 // 큐브(Mesh) 생성
 const geometry = new THREE.BoxGeometry(1, 1, 1); // 큐브 형상
-const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 }); // 녹색 기본 재질
+const material = new THREE.MeshBasicMaterial({ color: 0x0000ff }); // 녹색 기본 재질
 const cube = new THREE.Mesh(geometry, material); // 형상과 재질을 결합하여 Mesh 생성
 scene.add(cube); // 큐브를 장면에 추가
 
